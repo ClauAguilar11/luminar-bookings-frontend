@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuminarBookings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+
+</head>
+
+<div id="index">
+<body class="min-h-screen bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed text-text-100 font-styrene tracking-tight">
+<!-- HEADER -->
+
+<header id="menu" class="body-font h-screen">
+  <div>
+  <img src="image/pexels-teddy-yang-2263410.jpg" alt="portada" class="absolute inset-0 w-full h-full object-cover z-0 bg-black-500 opacity-90">
+  <h1 class="absolute text-5xl text-black-400 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold">Your Planing , Our Fun</h1>
+<h2 class="absolute text-3xl text-white-400 bottom-4 left-1/2 -translate-x-1/2 font-semibold">Mas que una aplicion, diversion!</h2>
+
+
+  </div>
+  <div class="container mx-auto flex flex-wrap p-6 flex-col md:flex-row items-center relative z-10">
+    <a class="flex title-font font-medium items-center text-[#F0EBEA] mb-4 md:mb-0">
+      <img src="image/L (6).png" alt="" class="w-16 h-16">
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-white justify-center">
+      <a href="#" class="mr-10 text-[#E6D8D7] hover:text-[#75453E] hover:bg-[#E6B68B] py-2 px-4 rounded transition duration-300 ease-in-out">Inicio</a>
+      <a href="#" class="mr-10 text-[#E6D8D7] hover:text-[#75453E] hover:bg-[#E6B68B] py-2 px-4 rounded transition duration-300 ease-in-out">Eventos</a>
+      <a href="#" class="mr-10 text-[#E6D8D7] hover:text-[#75453E] hover:bg-[#E6B68B] py-2 px-4 rounded transition duration-300 ease-in-out">Contáctanos</a>
+      <div class="relative">
+        <button id="miBoton1" class="mr-10 text-[#E6D8D7] hover:text-[#75453E] hover:bg-[#E6B68B] py-2 px-4 rounded transition duration-300 ease-in-out">Ingresar</button>
+        <div id="opcionesDiv1" class="hidden absolute rounded-t-none mt-2">
+          <a href="login.html"><button id="opcion1" class="w-full border-b-2 border-[#75453E] mr-10 text-left bg-[#E6B68B] hover:bg-[#E6D8D7] text-[#75453E] font-bold py-2 px-5 rounded-t-none ">Usuario</button></a>
+          <a href="login.html"><button id="opcion2" class="w-full mr-10 text-left bg-[#E6B68B] hover:bg-[#E6D8D7] text-[#75453E] font-bold py-2 px-5 rounded-t-none ">Empresa</button></a>
+        </div>
+      </div>
+      
+      <div class="relative">
+        <button id="miBoton2" class="mr-10 text-[#E6D8D7] hover:text-[#75453E] hover:bg-[#E6B68B] py-2 px-4 rounded transition duration-300 ease-in-out">Registrarse</button>
+        <div id="opcionesDiv2" class="hidden absolute rounded-t-none mt-2">
+         <a href="formusuario.html"><button id="opcion01" class="w-full border-b-2 border-[#75453E] mr-10 text-left bg-[#E6B68B] hover:bg-[#E6D8D7] text-[#75453E] font-bold py-2 px-5 rounded-t-none" >Usuario</button></a>
+          <a href="formempresa.html"><button id="opcion02" class="w-full mr-10 text-left bg-[#E6B68B] hover:bg-[#E6D8D7] text-[#75453E] font-bold py-2 px-5 rounded-t-none ">Empresa</button></a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+   <br>
+   
+   <!-- SECCIÓN 1 - CATEGORÍAS -->
+<section class="PY-12">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold">Categorías a buscar</h2>
+    <hr class="border-t-1 border-[#3B211D] my-8">
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-4">
+      <div class="bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed shadow-md p-6 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none flex items-center">
+          <img src="image/live-music.png" alt="icono1" class="icon-a-color grayscale opacity-o mx-auto w-28">
+        </div><br>
+        <span class="text-lg font-semibold text.gray-800">MUSICA</span>
+      </div>
+      <div class="bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed rounded-lg shadow-md p-6 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none">
+          <img src="image/hand 01.png" alt="icono2" class="icon-a-color grayscale opacity-o mx-auto w-28">
+        </div><br>
+        <span class="text-lg font-semibold text.gray-800">TERROR</span>
+      </div>
+      <div class="bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed rounded-lg shadow-md p-6 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none">
+          <img src="image/soccer-player.png" alt="icono3" class="icon-a-color grayscale opacity-o mx-auto w-28">
+        </div><br>
+        <span class="text-lg font-semibold text.gray-800">DEPORTES</span>
+      </div>
+      <div class="bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed rounded-lg shadow-md p-6 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none">
+          <img src="image/party.png" alt="icono4" class="icon-a-color grayscale opacity-o mx-auto w-28">
+        </div><br>
+        <span class="text-lg font-semibold text.gray-800">CULTURA</span>
+      </div>
+      <div class="bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed rounded-lg shadow-md p-6 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none">
+          <img src="image/hand-print.png" alt="icono5" class="icon-a-color grayscale opacity-o mx-auto w-28">
+        </div><br>
+        <span class="text-lg font-semibold text.gray-800">INFANTILES</span>
+      </div>
+      <div class="bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed rounded-lg shadow-md p-6 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none">
+          <img src="image/mona-lisa.png" alt="icono6" class="icon-a-color grayscale opacity-o mx-auto w-28">
+        </div><br>
+        <span class="text-lg font-semibold text.gray-800">ARTE</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br>
+
+
+<!-- CARRUSEL - PROXIMOS EVENTOS  -->
+<h1 class="text-5xl text-[#3B211D] font-baradig font-bold">PROXIMOS EVENTOS</h1>
+<br>
+<div class="slider">
+  <div class="slide-track">
+    <div class="slide">
+      <div class="bg-[#FFF9F9] mx-2 border border-[#3B211D] rounded-lg shadow-md p-3 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none flex items-center">
+          <img src="image/pexels-wendy-wei-1918162.jpg" alt="icono1" class="icon-a-color rounded-lg mx-auto ">
+        </div><br>
+        <div>
+        <span class="text-2xl font-groovity font-semibold text.gray-800">LATIN MUSIC-FEST</span>
+        <br><br>
+        <p class="text-gray-700 text-left text-sm ">Mártes / Mayo 24 / 7:00 pm</p>
+        <p class="text-gray-700 text-left text-sm ">Estadio Cuscatlán, San Salvador</p>
+        <br>
+        <p class="text-start text-3xl font-bold">$55.99</p> 
+        </div>
+
+      </div>
+    </div>
+    <div>
+      
+    </div>
+    <div class="slide">
+      <div class="bg-[#FFF9F9] mx-2 border border-[#3B211D] rounded-lg shadow-md p-3 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none flex items-center">
+          <img src="image/pexels-wendy-wei-1190297.jpg" alt="icono1" class="icon-a-color rounded-lg mx-auto">
+        </div><br>
+        <div>
+          <span class="text-3xl font-semibold text.gray-800">MUSICA</span>
+          <br><br>
+          <p class="text-gray-700 text-left text-sm ">Mártes / Mayo 24 / 7:00 pm</p>
+          <p class="text-gray-700 text-left text-sm ">Estadio Cuscatlán, San Salvador</p>
+          <br>
+          <p class="text-start text-3xl font-bold">$55.99</p> 
+          </div>
+      </div>
+    </div>
+     <div class="slide">
+      <div class="bg-[#FFF9F9] mx-2 border border-[#3B211D] rounded-lg shadow-md p-3 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none flex items-center">
+          <img src="image/pexels-wendy-wei-1918162.jpg" alt="icono1" class="icon-a-color rounded-lg mx-auto">
+        </div><br>
+        <div>
+        <span class="text-2xl font-semibold text.gray-800">LATIN MUSIC-FEST</span>
+        <br><br>
+        <p class="text-gray-700 text-left text-sm ">Mártes / Mayo 24 / 7:00 pm</p>
+        <p class="text-gray-700 text-left text-sm ">Estadio Cuscatlán, San Salvador</p>
+        <br>
+        <p class="text-start text-3xl font-bold">$55.99</p> 
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="bg-[#FFF9F9] mx-2  border border-[#3B211D] rounded-lg shadow-md p-3 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none flex items-center">
+          <img src="image/pexels-wendy-wei-1918162.jpg" alt="icono1" class="icon-a-color rounded-lg mx-auto">
+        </div><br>
+        <div>
+        <span class="text-3xl font-semibold text.gray-800">MUSICA</span>
+        <br><br>
+        <p class="text-gray-700 text-left text-sm ">Mártes / Mayo 24 / 7:00 pm</p>
+        <p class="text-gray-700 text-left text-sm ">Estadio Cuscatlán, San Salvador</p>
+        <br>
+        <p class="text-start text-3xl font-bold">$55.99</p> 
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="bg-[#FFF9F9] mx-2 border border-[#3B211D] rounded-lg shadow-md p-3 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none flex items-center">
+          <img src="image/pexels-wendy-wei-1918162.jpg" alt="icono1" class="icon-a-color rounded-lg mx-auto">
+        </div><br>
+        <div>
+        <span class="text-2xl font-semibold text.gray-800">LATIN MUSIC-FEST</span>
+        <br><br>
+        <p class="text-gray-700 text-left text-sm ">Mártes / Mayo 24 / 7:00 pm</p>
+        <p class="text-gray-700 text-left text-sm ">Estadio Cuscatlán, San Salvador</p>
+        <br>
+        <p class="text-start text-3xl font-bold">$55.99</p> 
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="bg-[#FFF9F9] mx-2 border border-[#3B211D] rounded-lg shadow-md p-3 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none flex items-center">
+          <img src="image/pexels-wendy-wei-1190297.jpg" alt="icono1" class="icon-a-color h-64 rounded-lg mx-auto">
+        </div><br>
+        <div>
+        <span class="text-3xl font-semibold text.gray-800">MUSICA</span>
+        <br><br>
+        <p class="text-gray-700 text-left text-sm ">Mártes / Mayo 24 / 7:00 pm</p>
+        <p class="text-gray-700 text-left text-sm ">Estadio Cuscatlán, San Salvador</p>
+        <br>
+        <p class="text-start text-3xl font-bold">$55.99</p> 
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="bg-[#FFF9F9] mx-2 border border-[#3B211D] rounded-lg shadow-md p-3 flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+        <div class="icon-container hover:filter-none flex items-center">
+          <img src="image/pexels-maor-attias-5156686.jpg" alt="icono1" class="icon-a-color object-cover h-64 rounded-lg mx-auto">
+        </div><br>
+        <div>
+        <span class="text-3xl font-semibold text.gray-800">MUSICA</span>
+        <br><br>
+        <p class="text-gray-700 text-left text-sm ">Mártes / Mayo 24 / 7:00 pm</p>
+        <p class="text-gray-700 text-left text-sm ">Estadio Cuscatlán, San Salvador</p>
+        <br>
+        <p class="text-start text-3xl font-bold">$55.99</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 class="text-5xl text-[#3B211D] font-baradig font-bold flex justify-center">NUESTROS CLIENTES</h1>
+<br>
+<div class="grid grid-cols-2 gap-8 max-w-screen-md mx-auto">
+  <div id="comentarios" class="w-full overflow-hidden relative">
+    <div id="comentario1" class="comentario p-0 rounded-lg bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed mb-12 ">
+      <div class="flex justify-between mb-6">
+        <p class="text-8xl font-extralight mr-4"> &lt;</p>
+        <div class="mr-8 flex-grow">
+          <p class="text-base text-justify">Me encantó la atención al cliente. Siempre están dispuestos a ayudar. Me encantó la atención al cliente. Siempre están dispuestos a ayudar.</p>
+          <p class="text-right text-sm">- Laura92</p>
+        </div>
+        <p class="text-8xl font-extralight">&gt;</p>
+      </div>
+    </div>
+  </div>
+  
+  <div id="comentarios" class="w-full overflow-hidden relative">
+    <div id="comentario2" class="comentario p-0 rounded-lg bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed mb-12 max-w-[98%]">
+      <div class="flex justify-between items-start mb-6">
+        <p class="text-8xl font-extralight mr-4"> &lt;</p>
+        <div class="mr-8 flex-grow">
+          <p class="text-base text-justify">Increíble experiencia. No puedo creer lo fácil que fue usar este servicio. Definitivamente volveré.</p>
+          <p class="text-right text-sm">- Maria_84</p>
+        </div>
+        <p class="text-8xl font-extralight">&gt;</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer class="bg-[#2D2D2A] text-white py-8 ">
+  <div class="container mx-auto flex flex-wrap justify-between">
+       <div class="mb-2 md:mb-0">
+          <span class="mr-2">Dirección:</span>
+          <span>Soyapango, El Salvador</span>
+      </div>
+      <div class="hidden md:block mx-2">|</div>
+      <div class="md:ml-2">
+          <div class="mb-2">Teléfono: 123-456-7890</div>
+          
+      </div>
+      <div class="w-full md:w-1/2 lg:w-auto mb-4 md:mb-0">
+          <div class="flex space-x-10">
+              <a href="#"><img src="image/facebook-app-symbol.png" alt="Facebook" class="w-12 h-12"></a>
+              <a href="#"><img src="image/twitter.png" alt="Twitter" class="w-12 h-12"></a>
+              <a href="#"><img src="image/instagram.png" alt="Instagram" class="w-12 h-12"></a>
+              <a href="#"><img src="image/whatsapp.png" alt="whatsapp" class="w-11 h-12"></a>
+          </div>
+      </div>
+  </div>
+  <hr class="border-t-1 border-[#E6D8D7] my-8">
+  <div class="container mx-auto flex justify-center items-center">
+      <div class="mr-4 md:mr-2 md:mb-0">Términos y Condiciones</div>
+      <div class="hidden md:block border-l-2 border-gray-400 h-6"></div>
+      <div class="ml-4 md:ml-2 md:mb-0">Política de Privacidad</div>
+  </div>
+  <div class="text-center text-gray-400 mt-8">
+      &copy; 2024 LuminarBookings. Todos los derechos reservados.
+  </div>
+  <div class="mx-auto flex justify-center items-center">Correo electrónico: info@example.com</div>
+</footer>
+ 
+</body>
+</div>
+<script src="js/script.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+</html>

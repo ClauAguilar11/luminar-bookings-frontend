@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Empresa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/formEmpresa.css">
+    
+
+ 
+</head>
+<body class="bg-gradient-to-b from-bg-200 to-bg-100 bg-fixed">
+<div class="min-h-screen bg-gradient-to-b from-bg-200 to-bg-100 h-screen w-screen">
+  <div class="flex justify-center items-center h-screen"> 
+    <div class="flex w-full">
+      <div class="w-1/2 bg-gray-200 flex items-center justify-center">
+        <img src="image/pexels-mart-production-8463093 (1).jpg" alt="imagenForm" class="min-w-full min-h-full ">
+      </div>
+  
+      <div class="pt-12 w-1/2 p-8 flex flex-col justify-center">
+        <div class="flex flex-col items-center mb-8">
+            <br><br><br><br><br><br><br><br><br><br>
+            <div class="flex flex-col">
+            <img src="image/Vector (1).png" alt="vector" class="w-30 max-h-30 ">
+              <i class="fas fa-user-circle text-6xl text-gray-500 mb-2"></i>
+              <h2 class="text-2xl font-bold text-center">Crea una cuenta</h2>
+            </div>
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="nombre">Nombre:</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nombre" type="text" placeholder="Ingresa tu nombre" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="apellido">Nombre del encargado:</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="apellido" type="text" placeholder="Ingresa el nombre del encargado" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="correo">Correo:</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="correo" type="email" placeholder="Ingresa tu correo electrónico" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="telefono">Teléfono:</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="telefono" type="tel" placeholder="Ingresa tu número de teléfono" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="contrasena">Contraseña:</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="contrasena" type="password" placeholder="Ingresa tu contraseña" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="confirmarContrasena">Confirmar contraseña:</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="confirmarContrasena" type="password" placeholder="Confirma tu contraseña" />
+          </div>
+          <div class="mb-6">
+            <label class="block text-gray-700 font-bold mb-2" for="direccion">Dirección:</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="direccion" type="text" placeholder="Ingresa tu dirección" />
+          </div>
+          <div class="flex justify-center">
+            <button class=" boton bg-transparent font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded" type="submit">Crear cuenta</button>
+          </div>
+        </form>
+      </div>
+    </div>    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/formUsuario.js"></script>
+
+</html>

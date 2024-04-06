@@ -1,0 +1,15 @@
+.boton {
+    background-color: #AE5630;
+    color: #ffffff;
+    border: none;
+  }
+
+  .boton:hover {
+    background-color: #8d4528;
+  }
+
+  .im1 {
+
+    background-image: cover;
+    background-color: black;
+  }

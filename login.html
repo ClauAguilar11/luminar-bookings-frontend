@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loging</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="min-h-screen bg-gradient-to-b from-bg-200 to-bg-100 h-screen w-screen">
+    <div class="flex flex-col items-center flex-1 h-full justify-center px-4 sm:px-0">
+        <div class="flex rounded-lg shadow-lg w-full sm:w-3/4 lg:w-1/2 bg-white sm:mx-0" style="height: 500px">
+            <div class="flex flex-col w-full md:w-1/2 p-4">
+                <div class="flex flex-col flex-1 justify-center mb-8">
+                    <h1 class="text-4xl text-center font-thin">Luminar Bookings</h1>
+                    <div class="w-full mt-4">
+                        <form class="form-horizontal w-3/4 mx-auto" method="POST" action="#">
+                            <div class="flex flex-col mt-4">
+                                <input id="email" type="text" class="flex-grow h-8 px-2 border rounded border-grey-400" name="email" value="" placeholder="Usuario">
+                            </div>
+                            <div class="flex flex-col mt-4">
+                                <input id="password" type="password" class="flex-grow h-8 px-2 rounded border border-grey-400" name="password" required placeholder="Contraseña">
+                            </div>
+                            <div class="flex items-center mt-4">
+                                <input type="checkbox" name="remember" id="remember" class="mr-2"> <label for="remember" class="text-sm text-grey-dark">Recuerdame</label>
+                            </div>
+                            <div class="flex flex-col mt-8">
+                                <button type="submit" class="bg-yellow-700 hover:bg-yellow-900 text-white text-sm font-semibold py-2 px-4 rounded">
+                                    Iniciar Sesion
+                                </button>
+                            </div>
+                        </form>
+                        <div class="text-center mt-4">
+                            <a class="no-underline hover:underline text-blue-dark text-xs" href="#">
+                                ¿Olvidaste tu contraseña?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:block md:w-1/2 rounded-r-lg" style="background: url('image/pexels-adrian-frentescu-7360983.jpg'); background-size: cover; background-position: center center;"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
